@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import Footer from "./components/Footer";
+import Home from "./components/Home";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Recommend from "./components/Recommend";
@@ -103,7 +104,14 @@ export default function App() {
   return (
   
     <div>
-       <Router>
+      <Navbar/>
+      <Routes>
+        <Route path="/" element={<Home/>} />
+        <Route path="/form" element= {<Form/>} />
+        <Route path="/connect" element= {<Connect/>} />
+      </Routes>
+      <Footer/>
+       {/*<Router>
       <ScrollToTop />
       <Navbar />
       <Hero />
@@ -117,14 +125,14 @@ export default function App() {
       <Recommend />
       <Testimonials />
         <Routes>
-          {/*<Route exact path="/" component={Home} />*/}
+          <Route exact path="/" component={Home} />
           <Route path="#form" exact component={<Form />} />
           <Route path="#connect" exact component={<Connect />} />
         </Routes>
         <Form />
        <Connect />
       <Footer />
-      </Router>
+      </Router>*/}
     
     </div>
     
