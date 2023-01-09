@@ -22,6 +22,7 @@ if (alertTrigger) {
 
   return (
     <Section id="form">
+      <br></br>
        <h2 class="headertekst">Bookings</h2>
       <div className="title">
       </div>

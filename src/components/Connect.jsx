@@ -12,6 +12,7 @@ function Connect() {
 
   return (
     <Section id="connect">
+      <br></br>
     <div className="title">
         <h2>Connect</h2>
       </div>

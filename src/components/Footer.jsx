@@ -12,13 +12,10 @@ export default function Footer() {
       
       <ul classNameName="links">
         <li>
-          <a href="#hero">Home</a>
+          <a href="/">Home</a>
         </li>
         <li>
-          <a href="#explore">Explore</a>
-        </li>
-        <li>
-          <a href="#blog">Blogs</a>
+          <a href="/explore">Explore</a>
         </li>
         <li>
           <a href="#services">About</a>
@@ -33,10 +30,10 @@ export default function Footer() {
           <a href="#testimonials">Testimonials</a>
         </li>
         <li>
-          <a href="#form">Bookings</a>
+          <a href="/form">Bookings</a>
         </li>
         <li>
-          <a href="#connect">Connect</a>
+          <a href="/connect">Connect</a>
         </li>
       </ul>
 

@@ -74,8 +74,7 @@ const ImageSlider = ({ slides }) => {
     <>
     <div style={sliderStyles}>
       <br></br>
-      <br></br>
-      <br></br>
+      
       <h2 style={head}>Experience these</h2>
       <div>
         <div onClick={goToPrevious} style={leftArrowStyles}>

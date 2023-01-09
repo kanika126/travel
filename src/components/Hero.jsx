@@ -17,7 +17,7 @@ export default function Hero() {
         </div>
         <div className="search">
         <a href="#image">
-        <button className="btn">Explore More</button>
+        
        </a>
         </div>
         <br></br>
