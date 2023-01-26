@@ -181,7 +181,7 @@ text-align: center;
 }
 
 .register{
-max-width: 1450px;
+max-width: 1410px;
 width: 100vw;
 display:flex;
 border: 1px solid #e9ecef;
@@ -195,7 +195,7 @@ color: #adb5bd;
 }
 
 #form{
-max-width: 320px;
+max-width: 250px;
 width: 100vw;
 margin: 2em auto;
 }
@@ -231,7 +231,7 @@ padding: 1em 0;
 }
 
 .register .col-2 img{
-width: 500px;
+width: 600px;
 height: 100%;
 object-fit: cover;
 align-self: flex-end;
