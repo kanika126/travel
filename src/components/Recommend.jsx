@@ -106,10 +106,14 @@ export default function Recommend() {
                 <span>1000 Kms</span>
                 <span>{destination.duration}</span>
               </div>
+
               </div>
           );
         })}
+        
       </div>
+      <br></br>
+      <div className="title">For Booking email your destination and phone number on "travelhere@gmail.com" and we will contact you shortly.</div>
     </Section>
   );
 }

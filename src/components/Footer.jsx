@@ -24,13 +24,13 @@ export default function Footer() {
         <li>
           <a href="#recommend">Packages</a>
         </li>
-  
+        <li>
+          <a href="#testimonials">Testimonials</a>
+        </li>
         <li>
           <a href="/explore">Explore</a>
         </li>
-        <li>
-          <a href="/form">Bookings</a>
-        </li>
+        
         <li>
           <a href="/connect">Connect</a>
         </li>
